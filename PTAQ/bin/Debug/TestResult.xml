@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\PTAQ\Repo-2016_09\Ptaq\PTAQ\bin\Debug\PTAQ.dll" total="2" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-11-28" time="11:40:42">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\PTAQ\Repo-2016_09\Ptaq\PTAQ\bin\Debug" machine-name="GPLPL0026" user="e-dzsi" user-domain="GFT" />
+  <culture-info current-culture="pl-PL" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\PTAQ\Repo-2016_09\Ptaq\PTAQ\bin\Debug\PTAQ.dll" executed="True" result="Failure" success="False" time="0.491" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="BackEnd" executed="True" result="Failure" success="False" time="0.491" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Features" executed="True" result="Failure" success="False" time="0.490" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Demo" executed="True" result="Failure" success="False" time="0.490" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="_3_DiffResultsInExcelFeature" executed="True" result="Failure" success="False" time="0.489" asserts="0">
+                    <results>
+                      <test-case name="BackEnd.Features.Demo._3_DiffResultsInExcelFeature._1_0CreateSourceAndTargetFiles" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                        <categories>
+                          <category name="mytag" />
+                        </categories>
+                      </test-case>
+                      <test-case name="BackEnd.Features.Demo._3_DiffResultsInExcelFeature._2_0CompareTwoFilesAndWriteDifferencesIntoExcel" executed="True" result="Failure" success="False" time="0.410" asserts="0">
+                        <categories>
+                          <category name="mytag" />
+                        </categories>
+                        <failure>
+                          <message><![CDATA[  Files are diffrent
+  Expected: True
+  But was:  False
+]]></message>
+                          <stack-trace><![CDATA[at BackEnd.Steps.ComparisonSteps.ThenCompareFilesUsingXLS(String filename1, String filename2) in C:\PTAQ\Repo-2016_09\Ptaq\PTAQ\Steps\ComparisonSteps.cs:line 56
+at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+at BackEnd.Features.Demo._3_DiffResultsInExcelFeature.ScenarioCleanup() in C:\PTAQ\Repo-2016_09\Ptaq\PTAQ\Features\Demo\DiffResultsInExcel.feature.cs:line 0
+at BackEnd.Features.Demo._3_DiffResultsInExcelFeature._2_0CompareTwoFilesAndWriteDifferencesIntoExcel() in C:\PTAQ\Repo-2016_09\Ptaq\PTAQ\Features\Demo\DiffResultsInExcel.feature:line 16
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
