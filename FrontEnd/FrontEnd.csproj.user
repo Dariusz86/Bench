@@ -2,6 +2,6 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartAction>Program</StartAction>
-    <StartProgram>C:\PTAQ\VS\ptaq\PTAQ\packages\nunit.runners.2.6.3\nunit.runners.2.6.3\tools\nunit.exe</StartProgram>
+    <StartProgram>D:\Testing\Selenium\Bench\packages\nunit.runners.2.6.3\nunit.runners.2.6.3\tools\nunit-x86.exe</StartProgram>
   </PropertyGroup>
 </Project>

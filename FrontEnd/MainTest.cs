@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using System.Configuration;
 using OpenQA.Selenium.Support.UI;
 
 namespace FrontEnd
@@ -18,14 +19,8 @@ namespace FrontEnd
         //[SetUp]
         public void StartChromeBrowser()
         {
-            Driver = new ChromeDriver("C:\\PTAQ\\Repo-2016_09\\Ptaq\\FrontEnd\\");
-            //Driver.Manage().Timeouts().PageLoadTimeout(TimeSpan.FromSeconds(40));
-            //Driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(5));
-
-            //IS not working
+            Driver = new ChromeDriver(ConfigurationManager.AppSettings["ChromeDriver"]);
             Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
-            //WebDriverWait Wait = new WebDriverWait(Driver, TimeSpan.FromSeconds(10));
-            //Wait.PollingInterval = TimeSpan.FromSeconds(1);
         }
 
         [TearDown]

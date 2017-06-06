@@ -50,3 +50,15 @@ C:\SELENIUM\MySelenium\Ptaq\PTAQ\obj\Debug\BackEnd.Properties.Resources.resource
 C:\SELENIUM\MySelenium\Ptaq\PTAQ\obj\Debug\BackEnd.csproj.GenerateResource.Cache
 C:\SELENIUM\MySelenium\Ptaq\PTAQ\obj\Debug\PTAQ.dll
 C:\SELENIUM\MySelenium\Ptaq\PTAQ\obj\Debug\PTAQ.pdb
+D:\Testing\Selenium\Bench\PTAQ\bin\Debug\PTAQ.dll.config
+D:\Testing\Selenium\Bench\PTAQ\bin\Debug\PTAQ.dll
+D:\Testing\Selenium\Bench\PTAQ\bin\Debug\PTAQ.pdb
+D:\Testing\Selenium\Bench\PTAQ\bin\Debug\EPPlus.dll
+D:\Testing\Selenium\Bench\PTAQ\bin\Debug\nunit.framework.dll
+D:\Testing\Selenium\Bench\PTAQ\bin\Debug\TechTalk.SpecFlow.dll
+D:\Testing\Selenium\Bench\PTAQ\bin\Debug\EPPlus.xml
+D:\Testing\Selenium\Bench\PTAQ\bin\Debug\nunit.framework.xml
+D:\Testing\Selenium\Bench\PTAQ\obj\Debug\BackEnd.Properties.Resources.resources
+D:\Testing\Selenium\Bench\PTAQ\obj\Debug\BackEnd.csproj.GenerateResource.Cache
+D:\Testing\Selenium\Bench\PTAQ\obj\Debug\PTAQ.dll
+D:\Testing\Selenium\Bench\PTAQ\obj\Debug\PTAQ.pdb

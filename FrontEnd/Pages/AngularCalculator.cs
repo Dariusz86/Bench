@@ -15,10 +15,6 @@ namespace FrontEnd.Pages.PreProjectPreparation
         //private readonly IWebDriver driver;
         public AngularCalculator(IWebDriver browser)
         {
-            //this.driver = browser;
-            browser.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(15000);
-            //WebDriverWait Wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-
             RetryingElementLocator retry = new RetryingElementLocator(browser, TimeSpan.FromSeconds(10));
             IPageObjectMemberDecorator decor = new DefaultPageObjectMemberDecorator();
             //PageFactory.InitElements(retry.SearchContext, this, decor);
@@ -35,8 +31,8 @@ namespace FrontEnd.Pages.PreProjectPreparation
         [FindsBy(How = How.XPath, Using = "/html/body/div/div/h3")]
         private IWebElement Header { get; set; }
 
-        [FindsBy(How = How.XPath, Using = "//input[@type='text']/[1]")]
-        //[FindsBy(How = How.XPath, Using = "/html/body/div/div/form/input[1]")]        
+        //[FindsBy(How = How.XPath, Using = "//input[@type='text']/[1]")]
+        [FindsBy(How = How.XPath, Using = "/html/body/div/div/form/input[1]")]        
         private IWebElement FirstValue { get; set; }
         
         public void VerifyExistanceOfElements()

@@ -1,37 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\SELENIUM\MySelenium\Ptaq\FrontEnd\bin\Debug\FrontEnd.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-06-05" time="12:06:44">
-  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.8669" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\SELENIUM\MySelenium\Ptaq\FrontEnd\bin\Debug" machine-name="GPLPL0026" user="e-dzsi" user-domain="GFT" />
-  <culture-info current-culture="pl-PL" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="C:\SELENIUM\MySelenium\Ptaq\FrontEnd\bin\Debug\FrontEnd.dll" executed="True" result="Failure" success="False" time="5.222" asserts="0">
+<test-results name="D:\Testing\Selenium\Bench\FrontEnd\bin\Debug\FrontEnd.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-06-06" time="23:06:19">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.8745" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="D:\Testing\Selenium\Bench\FrontEnd\bin\Debug" machine-name="LAPTOP" user="Darek" user-domain="Laptop" />
+  <culture-info current-culture="pl-PL" current-uiculture="pl-PL" />
+  <test-suite type="Assembly" name="D:\Testing\Selenium\Bench\FrontEnd\bin\Debug\FrontEnd.dll" executed="True" result="Failure" success="False" time="74.351" asserts="0">
     <results>
-      <test-suite type="Namespace" name="FrontEnd" executed="True" result="Failure" success="False" time="5.212" asserts="0">
+      <test-suite type="Namespace" name="FrontEnd" executed="True" result="Failure" success="False" time="74.350" asserts="0">
         <results>
-          <test-suite type="Namespace" name="Features" executed="True" result="Failure" success="False" time="5.212" asserts="0">
+          <test-suite type="Namespace" name="Features" executed="True" result="Failure" success="False" time="74.350" asserts="0">
             <results>
-              <test-suite type="Namespace" name="SeleniumTests" executed="True" result="Failure" success="False" time="5.212" asserts="0">
+              <test-suite type="Namespace" name="SeleniumTests" executed="True" result="Failure" success="False" time="74.348" asserts="0">
                 <results>
-                  <test-suite type="TestFixture" name="NavigateThroughPagesFeature" executed="True" result="Failure" success="False" time="5.210" asserts="0">
+                  <test-suite type="TestFixture" name="SeleniumTestFeature" executed="True" result="Failure" success="False" time="74.348" asserts="0">
                     <results>
-                      <test-case name="FrontEnd.Features.SeleniumTests.NavigateThroughPagesFeature.GoThroughPages" executed="True" result="Error" success="False" time="4.888" asserts="0">
+                      <test-case name="FrontEnd.Features.SeleniumTests.SeleniumTestFeature.VerifyElementsOnMainPage" executed="True" result="Error" success="False" time="74.345" asserts="0">
                         <categories>
                           <category name="mytag" />
                         </categories>
                         <failure>
-                          <message><![CDATA[OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //input[@type='text']/[1]]]></message>
-                          <stack-trace><![CDATA[at OpenQA.Selenium.Support.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
-at OpenQA.Selenium.Support.PageObjects.WebElementProxy.get_Element()
-at OpenQA.Selenium.Support.PageObjects.WebElementProxy.Invoke(IMessage msg)
-at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
-at OpenQA.Selenium.IWebElement.SendKeys(String text)
-at FrontEnd.Pages.PreProjectPreparation.AngularCalculator.SendFirstValue(String value1) in C:\SELENIUM\MySelenium\Ptaq\FrontEnd\Pages\PreProjectPreparation\AngularCalculator.cs:line 60
-at FrontEnd.Steps.CalculatorAndMailSteps.MakeCalculation() in C:\SELENIUM\MySelenium\Ptaq\FrontEnd\Steps\CalculatorAndMailSteps.cs:line 28
-at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-at FrontEnd.Features.SeleniumTests.NavigateThroughPagesFeature.ScenarioCleanup() in C:\SELENIUM\MySelenium\Ptaq\FrontEnd\Features\SeleniumTests\NavigateThroughPages .feature.cs:line 0
-at FrontEnd.Features.SeleniumTests.NavigateThroughPagesFeature.GoThroughPages() in C:\SELENIUM\MySelenium\Ptaq\FrontEnd\Features\SeleniumTests\NavigateThroughPages .feature:line 11
+                          <message><![CDATA[OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //input[@type='button']]]></message>
+                          <stack-trace><![CDATA[w OpenQA.Selenium.Support.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+w OpenQA.Selenium.Support.PageObjects.WebElementProxy.get_Element()
+w OpenQA.Selenium.Support.PageObjects.WebElementProxy.Invoke(IMessage msg)
+w System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+w OpenQA.Selenium.IWebElement.Click()
+w FrontEnd.Pages.TableListPage.FillInvestmentClickDeclareInvestemnt() w D:\Testing\Selenium\Bench\FrontEnd\Pages\TableListPage.cs:wiersz 62
+w FrontEnd.Main.FrontEndMain.WhenIFillTheForm() w D:\Testing\Selenium\Bench\FrontEnd\Steps\FrontEndMain.cs:wiersz 53
+w lambda_method(Closure , IContextManager )
+w TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+w TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+w TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+w TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+w TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+w FrontEnd.Features.SeleniumTests.SeleniumTestFeature.ScenarioCleanup()
+w FrontEnd.Features.SeleniumTests.SeleniumTestFeature.VerifyElementsOnMainPage() w D:\Testing\Selenium\Bench\FrontEnd\Features\SeleniumTests\SeleniumTest.feature:wiersz 11
 ]]></stack-trace>
                         </failure>
                       </test-case>
