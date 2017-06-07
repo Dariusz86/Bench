@@ -1,25 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\BENCH\MySelenium\Bench\FrontEnd\bin\Debug\FrontEnd.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-06-07" time="14:27:26">
+<test-results name="C:\BENCH\MySelenium\Bench\FrontEnd\bin\Debug\FrontEnd.dll" total="2" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-06-07" time="15:33:11">
   <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.8669" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\BENCH\MySelenium\Bench\FrontEnd\bin\Debug" machine-name="GPLPL0026" user="e-dzsi" user-domain="GFT" />
   <culture-info current-culture="pl-PL" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="C:\BENCH\MySelenium\Bench\FrontEnd\bin\Debug\FrontEnd.dll" executed="True" result="Success" success="True" time="11.890" asserts="0">
+  <test-suite type="Assembly" name="C:\BENCH\MySelenium\Bench\FrontEnd\bin\Debug\FrontEnd.dll" executed="True" result="Success" success="True" time="20.409" asserts="0">
     <results>
-      <test-suite type="Namespace" name="FrontEnd" executed="True" result="Success" success="True" time="11.885" asserts="0">
+      <test-suite type="Namespace" name="FrontEnd" executed="True" result="Success" success="True" time="20.402" asserts="0">
         <results>
-          <test-suite type="Namespace" name="Features" executed="True" result="Success" success="True" time="11.884" asserts="0">
+          <test-suite type="Namespace" name="Features" executed="True" result="Success" success="True" time="20.402" asserts="0">
             <results>
-              <test-suite type="Namespace" name="SeleniumTests" executed="True" result="Success" success="True" time="11.884" asserts="0">
+              <test-suite type="TestFixture" name="PlayWithCalculatorFeature" executed="True" result="Success" success="True" time="10.940" asserts="0">
                 <results>
-                  <test-suite type="TestFixture" name="PlayWithCalculatorFeature" executed="True" result="Success" success="True" time="11.883" asserts="0">
-                    <results>
-                      <test-case name="FrontEnd.Features.SeleniumTests.PlayWithCalculatorFeature.MultiplicationExample" executed="True" result="Success" success="True" time="11.696" asserts="0">
-                        <categories>
-                          <category name="mytag" />
-                        </categories>
-                      </test-case>
-                    </results>
-                  </test-suite>
+                  <test-case name="FrontEnd.Features.PlayWithCalculatorFeature.MultiplicationExample" executed="True" result="Success" success="True" time="10.756" asserts="0">
+                    <categories>
+                      <category name="mytag" />
+                    </categories>
+                  </test-case>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="SeleniumTestFeature" executed="True" result="Success" success="True" time="9.453" asserts="0">
+                <results>
+                  <test-case name="FrontEnd.Features.SeleniumTestFeature.VerifyElementsOnMainPage" executed="True" result="Success" success="True" time="9.452" asserts="0">
+                    <categories>
+                      <category name="mytag" />
+                    </categories>
+                  </test-case>
                 </results>
               </test-suite>
             </results>

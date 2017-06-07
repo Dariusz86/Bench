@@ -7,9 +7,9 @@
     <Node UniqueName="[0-1004]C:\BENCH\MySelenium\Bench\FrontEnd\bin\Debug\FrontEnd.dll" Expanded="true" />
     <Node UniqueName="[0-1005]FrontEnd" Expanded="true" />
     <Node UniqueName="[0-1006]FrontEnd.Features" Expanded="true" />
-    <Node UniqueName="[0-1007]FrontEnd.Features.SeleniumTests" Expanded="true" />
-    <Node UniqueName="[0-1000]FrontEnd.Features.SeleniumTests.PlayWithCalculatorFeature" Expanded="true" />
-    <Node UniqueName="[0-1001]FrontEnd.Features.SeleniumTests.PlayWithCalculatorFeature.MultiplicationExample" Checked="true" />
-    <Node UniqueName="[0-1002]FrontEnd.Features.SeleniumTests.SeleniumTestFeature" Expanded="true" />
+    <Node UniqueName="[0-1000]FrontEnd.Features.PlayWithCalculatorFeature" Expanded="true" />
+    <Node UniqueName="[0-1001]FrontEnd.Features.PlayWithCalculatorFeature.MultiplicationExample" Checked="true" />
+    <Node UniqueName="[0-1002]FrontEnd.Features.SeleniumTestFeature" Expanded="true" />
+    <Node UniqueName="[0-1003]FrontEnd.Features.SeleniumTestFeature.VerifyElementsOnMainPage" Checked="true" />
   </Nodes>
 </VisualState>

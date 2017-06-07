@@ -14,7 +14,7 @@ using OpenQA.Selenium.Chrome;
 namespace FrontEnd.Main
 {
     [Binding]
-    class FrontEndMain : MainTest
+    class MainSteps : MainTest
     {
         [Given(@"I start Chrome browser")]
         private void StartBrowser()

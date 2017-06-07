@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace FrontEnd.Features.SeleniumTests
+namespace FrontEnd.Features
 {
     using TechTalk.SpecFlow;
     

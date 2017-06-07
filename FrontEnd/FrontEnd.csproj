@@ -57,13 +57,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractLayer\PageConfiguration.cs" />
-    <Compile Include="Features\SeleniumTests\NavigateThroughPages .feature.cs">
+    <Compile Include="Features\NavigateThroughPages .feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>NavigateThroughPages .feature</DependentUpon>
     </Compile>
-    <Compile Include="Features\SeleniumTests\SeleniumTest.feature.cs">
+    <Compile Include="Features\SeleniumTest.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SeleniumTest.feature</DependentUpon>
@@ -79,11 +78,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Features\SeleniumTests\NavigateThroughPages .feature">
+    <None Include="Features\NavigateThroughPages .feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>NavigateThroughPages .feature.cs</LastGenOutput>
     </None>
-    <None Include="Features\SeleniumTests\SeleniumTest.feature">
+    <None Include="Features\SeleniumTest.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>SeleniumTest.feature.cs</LastGenOutput>
     </None>
