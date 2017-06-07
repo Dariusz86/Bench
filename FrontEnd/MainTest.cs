@@ -24,7 +24,7 @@ namespace FrontEnd
         [TearDown]
         public void cleanUp()
         {
-            Driver.Close();
+            Driver.Quit();
         }
 
     }

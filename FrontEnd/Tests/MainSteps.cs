@@ -25,7 +25,6 @@ namespace FrontEnd.Main
         [Then(@"I close browser")]
         private void ThenICloseBrowser()
         {
-            Thread.Sleep(1000);
             Driver.Quit();
         }
 
