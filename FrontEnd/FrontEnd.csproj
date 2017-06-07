@@ -71,10 +71,11 @@
     <Compile Include="MainTest.cs" />
     <Compile Include="Pages\AngularCalculator.cs" />
     <Compile Include="Pages\TableListPage.cs" />
-    <Compile Include="Steps\CalculatorAndMailSteps.cs" />
+    <Compile Include="Tests\CalculatorAndMailSteps.cs" />
+    <Compile Include="Tests\GoForTestingSteps.cs" />
     <Compile Include="Tools\Hooks.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Steps\FrontEndMain.cs" />
+    <Compile Include="Tests\MainSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

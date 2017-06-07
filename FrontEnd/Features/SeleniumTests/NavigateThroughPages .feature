@@ -1,11 +1,12 @@
-﻿Feature: NavigateThroughPages 
+﻿Feature: PlayWithCalculator
 
 
 @mytag
-Scenario: GoThroughPages
+Scenario: Multiplication Example
 Given I start Chrome browser
-	#When I navigate to http://interia.pl
-	#And I navigate to http://in4.pl
-	When I navigate to http://juliemr.github.io/protractor-demo/
-	And I make calculation
-	Then I close browser
+When I navigate to http://juliemr.github.io/protractor-demo/
+	And I insert first value: 150
+	And I insert second value: 20
+	And I do multplication
+Then I verify results
+	And I close browser

@@ -9,9 +9,3 @@ Given I start Chrome browser
 	#And I verify existence of elements on page
 	And I fill the form
 Then I close browser
-	#Given I run Chrome browser and go to http://gofortesting.gft.com/#/menu
-
-
-#@mytag
-#Scenario: Verify elements on table-list page
-#	Given I run Chrome browser and go to http://gofortesting.gft.com/#/table-list

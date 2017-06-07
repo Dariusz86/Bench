@@ -45,18 +45,6 @@ namespace FrontEnd.Pages
         public IWebElement SubmitButton { get; set; }
 
 
-
-        //*[@id="main"]/div/div/div/table/tbody/tr[1]/td/input
-        //By.XPath("//button[@type='submit']")
-
-        //Boolean isPresent = driver.findElements(By.yourLocator).size() > 0
-
-        //WebElement element = driver.findElement(By.id(“UserName“));
-        //web declareInvestmentButton = new WebElement();
-        //    = this.driver.FindElement(By.XPath("//button[@type='submit']")).Click();
-        //public By oddsButton = driver.findElement(By.id("UserName"));
-
-
         public void FillInvestmentClickDeclareInvestemnt()
         {
             DeclareInvestmentButton.Click();

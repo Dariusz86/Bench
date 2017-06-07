@@ -16,15 +16,11 @@ namespace FrontEnd.Main
     [Binding]
     class FrontEndMain : MainTest
     {
-
-        
-
         [Given(@"I start Chrome browser")]
         private void StartBrowser()
         {
             base.StartChromeBrowser();
         }
-
 
         [Then(@"I close browser")]
         private void ThenICloseBrowser()
@@ -44,16 +40,5 @@ namespace FrontEnd.Main
         {
             
         }
-
-        [When(@"I fill the form")]
-        private void WhenIFillTheForm()
-        {
-            Thread.Sleep(1000);
-            TableListPage tableListPage = new TableListPage(Driver);
-            tableListPage.FillInvestmentClickDeclareInvestemnt();
-            tableListPage.FillFormWithTestData();
-        }
-
-
     }
 }

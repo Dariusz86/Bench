@@ -14,9 +14,7 @@ namespace FrontEnd
     class MainTest
     {
         public static IWebDriver Driver { get; set; }
-        //public static WebDriverWait Wait { get; set; }
 
-        //[SetUp]
         public void StartChromeBrowser()
         {
             Driver = new ChromeDriver(ConfigurationManager.AppSettings["ChromeDriver"]);

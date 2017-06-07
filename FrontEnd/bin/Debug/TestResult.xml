@@ -1,41 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="D:\Testing\Selenium\Bench\FrontEnd\bin\Debug\FrontEnd.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-06-06" time="23:06:19">
-  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.8745" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="D:\Testing\Selenium\Bench\FrontEnd\bin\Debug" machine-name="LAPTOP" user="Darek" user-domain="Laptop" />
-  <culture-info current-culture="pl-PL" current-uiculture="pl-PL" />
-  <test-suite type="Assembly" name="D:\Testing\Selenium\Bench\FrontEnd\bin\Debug\FrontEnd.dll" executed="True" result="Failure" success="False" time="74.351" asserts="0">
+<test-results name="C:\BENCH\MySelenium\Bench\FrontEnd\bin\Debug\FrontEnd.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-06-07" time="14:27:26">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.8669" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\BENCH\MySelenium\Bench\FrontEnd\bin\Debug" machine-name="GPLPL0026" user="e-dzsi" user-domain="GFT" />
+  <culture-info current-culture="pl-PL" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\BENCH\MySelenium\Bench\FrontEnd\bin\Debug\FrontEnd.dll" executed="True" result="Success" success="True" time="11.890" asserts="0">
     <results>
-      <test-suite type="Namespace" name="FrontEnd" executed="True" result="Failure" success="False" time="74.350" asserts="0">
+      <test-suite type="Namespace" name="FrontEnd" executed="True" result="Success" success="True" time="11.885" asserts="0">
         <results>
-          <test-suite type="Namespace" name="Features" executed="True" result="Failure" success="False" time="74.350" asserts="0">
+          <test-suite type="Namespace" name="Features" executed="True" result="Success" success="True" time="11.884" asserts="0">
             <results>
-              <test-suite type="Namespace" name="SeleniumTests" executed="True" result="Failure" success="False" time="74.348" asserts="0">
+              <test-suite type="Namespace" name="SeleniumTests" executed="True" result="Success" success="True" time="11.884" asserts="0">
                 <results>
-                  <test-suite type="TestFixture" name="SeleniumTestFeature" executed="True" result="Failure" success="False" time="74.348" asserts="0">
+                  <test-suite type="TestFixture" name="PlayWithCalculatorFeature" executed="True" result="Success" success="True" time="11.883" asserts="0">
                     <results>
-                      <test-case name="FrontEnd.Features.SeleniumTests.SeleniumTestFeature.VerifyElementsOnMainPage" executed="True" result="Error" success="False" time="74.345" asserts="0">
+                      <test-case name="FrontEnd.Features.SeleniumTests.PlayWithCalculatorFeature.MultiplicationExample" executed="True" result="Success" success="True" time="11.696" asserts="0">
                         <categories>
                           <category name="mytag" />
                         </categories>
-                        <failure>
-                          <message><![CDATA[OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //input[@type='button']]]></message>
-                          <stack-trace><![CDATA[w OpenQA.Selenium.Support.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
-w OpenQA.Selenium.Support.PageObjects.WebElementProxy.get_Element()
-w OpenQA.Selenium.Support.PageObjects.WebElementProxy.Invoke(IMessage msg)
-w System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
-w OpenQA.Selenium.IWebElement.Click()
-w FrontEnd.Pages.TableListPage.FillInvestmentClickDeclareInvestemnt() w D:\Testing\Selenium\Bench\FrontEnd\Pages\TableListPage.cs:wiersz 62
-w FrontEnd.Main.FrontEndMain.WhenIFillTheForm() w D:\Testing\Selenium\Bench\FrontEnd\Steps\FrontEndMain.cs:wiersz 53
-w lambda_method(Closure , IContextManager )
-w TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
-w TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
-w TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
-w TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
-w TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
-w FrontEnd.Features.SeleniumTests.SeleniumTestFeature.ScenarioCleanup()
-w FrontEnd.Features.SeleniumTests.SeleniumTestFeature.VerifyElementsOnMainPage() w D:\Testing\Selenium\Bench\FrontEnd\Features\SeleniumTests\SeleniumTest.feature:wiersz 11
-]]></stack-trace>
-                        </failure>
                       </test-case>
                     </results>
                   </test-suite>
