@@ -70,6 +70,7 @@ C:\BENCH\MySelenium\Bench\PTAQ\bin\Debug\nunit.framework.dll
 C:\BENCH\MySelenium\Bench\PTAQ\bin\Debug\TechTalk.SpecFlow.dll
 C:\BENCH\MySelenium\Bench\PTAQ\bin\Debug\EPPlus.xml
 C:\BENCH\MySelenium\Bench\PTAQ\bin\Debug\nunit.framework.xml
+C:\BENCH\MySelenium\Bench\PTAQ\obj\Debug\BackEnd.csprojResolveAssemblyReference.cache
 C:\BENCH\MySelenium\Bench\PTAQ\obj\Debug\BackEnd.Properties.Resources.resources
 C:\BENCH\MySelenium\Bench\PTAQ\obj\Debug\BackEnd.csproj.GenerateResource.Cache
 C:\BENCH\MySelenium\Bench\PTAQ\obj\Debug\PTAQ.dll

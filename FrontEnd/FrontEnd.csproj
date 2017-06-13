@@ -57,6 +57,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\CheckGmail.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CheckGmail.feature</DependentUpon>
+    </Compile>
     <Compile Include="Features\NavigateThroughPages .feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -69,15 +74,23 @@
     </Compile>
     <Compile Include="MainTest.cs" />
     <Compile Include="Pages\AngularCalculator.cs" />
+    <Compile Include="Pages\GoogleModule\GmailLogin.cs" />
+    <Compile Include="Pages\GoogleModule\GmailMain.cs" />
+    <Compile Include="Pages\GoogleModule\GoogleSearch.cs" />
     <Compile Include="Pages\TableListPage.cs" />
-    <Compile Include="Tests\CalculatorAndMailSteps.cs" />
+    <Compile Include="Tests\CalculatorlSteps.cs" />
     <Compile Include="Tests\GoForTestingSteps.cs" />
+    <Compile Include="Tests\GoogleSteps.cs" />
     <Compile Include="Tools\Hooks.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\MainSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Features\CheckGmail.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CheckGmail.feature.cs</LastGenOutput>
+    </None>
     <None Include="Features\NavigateThroughPages .feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>NavigateThroughPages .feature.cs</LastGenOutput>

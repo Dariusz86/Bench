@@ -14,7 +14,7 @@ using OpenQA.Selenium.Chrome;
 namespace FrontEnd.Steps
 {
     [Binding]
-    class CalculatorAndMailSteps : MainTest
+    class CalculatorSteps : MainTest
     { 
         AngularCalculator angularCalculator = new AngularCalculator(Driver);
         
